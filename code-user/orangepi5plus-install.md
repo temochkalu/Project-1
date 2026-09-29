@@ -92,4 +92,8 @@ RK3588 загружается в таком порядке:
 3) Нужно также установить образ ОС
 4) Прошивка SPI Flash: Сначала сгружаем с microSD-карты и записываем в микросхему SPI Flash загрузчик U-Boot. Без этого плата просто не увидит NVMe-диск
 5) Запись системы на NVMe: После прошивки SPI, нужно либо напрямую записать образ системы на диск
-
+## Ссылки на сайты где можно скачать образы ОС:
+1) Armbian - armbian.com/boards/orangepi5-plus
+2) Ubuntu - Joshua-Riek/ubuntu-rockchip
+3) FydeOSm - fydeos.io/download/device/orangepi5-fydeos/
+4) Acrh Linux - 7Ji/orangepi5-archlinuxarm
